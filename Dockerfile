@@ -1,5 +1,5 @@
 FROM debian:jessie 
-FROM php:5.4-apache
+#FROM php:5.4-apache
 ADD sources.list /etc/apt/sources.list
 # Install modules
 RUN apt-get update && apt-get install -y php5 php5-gd
